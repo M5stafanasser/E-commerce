@@ -19,7 +19,7 @@
 <body>
 
  <div class="container">
-      <div class="intro">
+        <div class="intro">
         <button id="topscroll">↑</button>
         <div class="title">
           <ul class="navbar">
@@ -28,6 +28,17 @@
                 ><img src="images/SHOP_CO_logo_90x80.png" alt="logo" />
               </a>
             </li>
+            <div class="thenavbarmenu">
+              <button class="btnmenu" onclick="menuelements.hidden^=1">
+                ☰
+              </button>
+              <ul id="menuelements" hidden>
+                <li><a href="#" class="linkaa">Shop</a></li>
+                <li><a href="#" class="linkaa">on sale</a></li>
+                <li><a href="#" class="linkaa">new arrivals</a></li>
+                <li><a href="#" class="linkaa">brands</a></li>
+              </ul>
+            </div>
             <li class="list"><a href="#" class="linka">Shop</a></li>
             <li class="list"><a href="#" class="linka">on sale</a></li>
             <li class="list"><a href="#" class="linka">new arrivals</a></li>
@@ -39,7 +50,7 @@
                 placeholder="  🔎  search for products.."
               />
             </li>
-            <li class="list">
+            <li class="lis">
               <i class="fa-solid fa-user"></i>
               <i class="fa-solid fa-cart-shopping"></i>
             </li>
