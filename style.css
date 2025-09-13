@@ -459,8 +459,8 @@ h1 {
 }
 
 .stars {
-  font-size: 17px;
-  color: #ffb400;
+  font-weight: 800;
+  color: yellow;
   margin-bottom: 6px;
 }
 
