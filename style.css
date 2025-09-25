@@ -283,7 +283,7 @@ center {
   transform: scale(1.1, 1.1);
   background-color: rgb(233, 233, 233);
 
-  box-shadow: 20px 20px 20px black;
+   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.614);
   cursor: pointer;
 }
 @keyframes picanimation {
@@ -441,7 +441,7 @@ h1 {
 .product:hover {
   cursor: pointer;
   transform: scale(1.1);  
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.614);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.614);
 }
 
 .product img {
